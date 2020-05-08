@@ -1,0 +1,12 @@
+//to check kth bit is set or not
+#include<iostream>
+using namespace std;
+int main(){
+signed int x=4;
+int k=3;
+if(((x>>(k-1))&1)==1)
+	cout<<"yes";
+else
+	cout<<"no";
+return 0;
+}
